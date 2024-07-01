@@ -3,6 +3,8 @@
 @tailwind utilities;
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
 
 
 :root {
@@ -33,16 +35,43 @@ body {
   }
 }
 
-.text-main {
-  color: #2A9FDE;
+/* CUSTOM CSS */
+/* custom configs */
+section {
+  padding: 3.9rem 0;
 }
 
-/* CUSTOM CSS */
+.section-padding-100 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.section-padding-100-0 {
+  padding-top: 100px;
+  padding-bottom: 0;
+}
+
+.section-padding-0-100 {
+  padding-top: 0;
+  padding-bottom: 100px;
+}
+
+.section-padding-100-70 {
+  padding-top: 100px;
+  padding-bottom: 70px;
+}
+
+
 .bg-special {
   background-color: #ffffff;
 }
 
 /* Navbar */
+.text-main {
+  color: #2A9FDE;
+}
+
+
 .name {
   font-family: 'Montserrat';
 }
@@ -63,4 +92,29 @@ body {
 
 .nav-top-1 {
   top: 95px;
+}
+
+.color-1 {
+  background: #2A9FDE;
+}
+
+.hire-link {
+  border-radius: 25px;
+  box-shadow: 5px 10px 18px -6px rgba(0, 0, 0, 0.74);
+}
+
+.photo-hero {
+  border-radius: 19px;
+  box-shadow: 2px 10px 4px -6px #2A9FDE;
+}
+
+.photo-phone {
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 19px;
+  border-color: #2A9FDE;
+}
+
+.descr {
+  font-family: "Sora", sans-serif;
 }
